@@ -4,7 +4,7 @@ import { Play, Users } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 min-h-[80vh]">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-6 py-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[70vh]">
           <div className="space-y-6">
             <div className="space-y-4">
@@ -47,12 +47,14 @@ const Hero = () => {
           </div>
 
           <div className="relative h-full">
-            {/* Main jp.jpg photo */}
+            {/* Main tech.jpg photo */}
             <div className="h-full p-8">
               <img 
                 src="/jp.jpg" 
                 alt="Mind Bridge Learning"
-                className="w-full h-full object-contain rounded-2xl shadow-xl"
+                className="w-full h-full object-contain rounded-2xl shadow-xl 
+                  sm:h-full sm:w-full 
+                  h-48" // Sets height to 12rem on mobile screens
               />
             </div>
           </div>
