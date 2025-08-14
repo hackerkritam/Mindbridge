@@ -17,7 +17,7 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "₹500",
+      price: "Rs 500",
       period: "/person/month",
       description: "Most popular choice",
       features: [
@@ -32,7 +32,7 @@ const Pricing = () => {
     },
     {
       name: "Institution",
-      price: "₹30,000",
+      price: "Rs 30,000",
       period: "/year",
       description: "For schools and organizations",
       features: [

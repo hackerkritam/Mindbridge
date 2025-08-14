@@ -55,7 +55,7 @@ const Team = () => {
               <img 
                 src="/tech.jpg" 
                 alt="Our Team"
-                className="w-[600px] h-[500px] object-cover rounded-2xl shadow-lg mx-auto"
+                className="object-contain rounded-2xl shadow-lg mx-auto w-full max-w-[95vw] sm:max-w-[600px] max-h-[300px] sm:max-h-[500px]"
               />
             </div>
             
